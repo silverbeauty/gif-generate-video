@@ -22,7 +22,7 @@ new Promise(async(resolve, reject) => {
   });  
   
   play = await loadImage('./overlay.png');
-  banner = await loadImage('./banner.png');
+  //banner = await loadImage('./banner.png');
   
   for(let i=1; i<40; i++){
     image = await loadImage(`./screenshot-${i}.jpg`);
